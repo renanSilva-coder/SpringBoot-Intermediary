@@ -1,5 +1,6 @@
 # SpringBoot-Intermediary
 Projeto de Spring Boot criado em pós graduação!
+
 *** Projeto na Branch master ***
  
 Objetivo:
@@ -13,6 +14,7 @@ Desenvolvido:
 ==============================================================
 
 Spring Boot project created in the postgraduate course!
+
 *** Project in the master branch ***
 
 Objective:
