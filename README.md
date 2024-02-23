@@ -8,8 +8,9 @@ Objetivo:
 
 Desenvolvido:
 - API REST com notações do SpringBoot para um objeto de Estudantes.
-- Classes de excessões
+- Classes de excessões.
 - Upload e Download de arquivos.
+- Conexão com banco de dados MySQL usando Spring Data JPA .
 
 Dependências:
 - Versão Java 11 -> pom.xml ->	<java.version>11</java.version>
@@ -30,8 +31,9 @@ Objective:
 
 Developed:
 - REST API with Spring Boot annotations for a Student object.
-- Exception classes
+- Exception classes.
 - File upload and download.
+- Connecting to MySQL database using Spring Data JPA.
 
 Dependencies:
 - Java version: 11 ->	pom.xml ->	<java.version>11</java.version>
