@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,8 +25,10 @@ public class EstudanteController {
 	}
 	
 	@GetMapping
-	public List<Estudante> buscarTodosEstudantes(){
-		return estudanteService.buscarTodosEstudantes();
+	public Page<Estudante> buscarTodosEstudantes(
+			@RequestParam(defaultValue = "0") Integer pagina,
+			@RequestParam(defaultValue = "5") Integer itensPorPagina){
+		return estudanteService.buscarTodosEstudantes(PageRequest.of(pagina, itensPorPagina));
 	}
 	
 	@PostMapping
@@ -34,7 +38,7 @@ public class EstudanteController {
 	
 	@PutMapping("/{id}")
 	public ResponseEntity<Estudante> atualizarEstudante(@PathVariable Long id, @RequestBody Estudante estudante){
-		return estudanteService.atualizarEstudante(estudante);
+		return estudanteService.atualizarEstudante(id, estudante);
 	}
 		
 	@DeleteMapping("/{id}")
