@@ -1,4 +1,4 @@
-# SpringBoot-Intermediary
+# SpringBoot-Strategies
 Projeto de Spring Boot criado em pós graduação!
 
 *** Projeto na branch MASTER ***
