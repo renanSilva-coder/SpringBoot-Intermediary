@@ -16,7 +16,7 @@ public class RelatorioService {
 	@Async
 	public void gerarRelatorio() throws InterruptedException {
 		log.info("Tarefa iniciada com sucesso!");
-		Thread.sleep(10000);
+		Thread.sleep(100000000);
 		
 		notificacaoService.publicar("Tarefa finalizada com sucesso!");
 

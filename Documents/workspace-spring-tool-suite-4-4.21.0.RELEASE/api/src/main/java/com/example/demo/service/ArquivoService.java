@@ -16,7 +16,7 @@ import com.example.demo.config.FileStorageProperties;
 
 import Exception.ArquivoNaoEncontradoException;
 import Exception.UploadArquivoException;
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
