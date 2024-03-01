@@ -19,6 +19,7 @@ Desenvolvido:
 - Documentação de Api com Swagger.
 
 Dependências:
+- Spring Boot 2.7.5 -> pom.xml -> <version>2.7.5</version>
 - Versão Java 11 -> pom.xml ->	<java.version>11</java.version>
 - Lombok: responsável por gerar os códigos boilerplate para nós, como Getter e Setters.
 - Spring Web: principal dependência para podermos desenvolver nossa aplicação. É composta por outras dependências, entre elas Spring MVC, REST e Tomcat como servidor padrão embutido. Ela já possui todas as configurações necessárias para que possamos rodar e testar nossa aplicação localmente, assim como nossa camada Controller.
@@ -53,6 +54,7 @@ Developed:
 - API Documentation with Swagger.
 
 Dependencies:
+- - Spring Boot 2.7.5 -> pom.xml -> <version>2.7.5</version>
 - Java version: 11 ->	pom.xml ->	<java.version>11</java.version>
 - Lombok: responsible for generating boilerplate code for us, such as Getters and Setters.
 - Spring Web: the main dependency for developing our application. It is composed of other dependencies, including Spring MVC, REST, and Tomcat as the default embedded server. It already has all the necessary configurations for us to run and test our application locally, as well as our Controller layer.
