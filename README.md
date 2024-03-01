@@ -19,7 +19,7 @@ Desenvolvido:
 - Documentação de Api com Swagger.
 
 Dependências:
-- Spring Boot 2.7.5 -> pom.xml -> <version>2.7.5</version>
+- Spring Boot 2.7.5 -> pom.xml -> //<version>2.7.5</version>
 - Versão Java 11 -> pom.xml ->	<java.version>11</java.version>
 - Lombok: responsável por gerar os códigos boilerplate para nós, como Getter e Setters.
 - Spring Web: principal dependência para podermos desenvolver nossa aplicação. É composta por outras dependências, entre elas Spring MVC, REST e Tomcat como servidor padrão embutido. Ela já possui todas as configurações necessárias para que possamos rodar e testar nossa aplicação localmente, assim como nossa camada Controller.
@@ -27,10 +27,14 @@ Dependências:
 - Spring Data JPA: Simplifica a implementação de repositórios baseados em JPA. Ele oferece funcionalidades para interagir facilmente com bancos de dados usando a API de Persistência Java (JPA)
 - MySQL Driver: Para conexão da aplicação ao banco de dados MYSQL.
 - SocketIO -> pom.xml:
-         <groupId>com.corundumstudio.socketio</groupId>
-        	<artifactId>netty-socketio</artifactId>
-        	<version>1.7.22</version>
+         //<groupId>com.corundumstudio.socketio</groupId>
+        	//<artifactId>netty-socketio</artifactId>
+        	//<version>1.7.22</version>
 - OAuth2 Resource Server: Permite implementação do Spring Security, possibilita utilizar Token JWT para autenticação de rotas e endpoints.
+- Swagger -> pom.xml:
+         springfox-swagger2 3.0.0
+         springfox-boot-starter 3.0.0
+         springfox-swagger-ui 3.0.0
 
 ==============================================================
 
@@ -54,7 +58,7 @@ Developed:
 - API Documentation with Swagger.
 
 Dependencies:
-- - Spring Boot 2.7.5 -> pom.xml -> <version>2.7.5</version>
+- Spring Boot 2.7.5 -> pom.xml -> //<version>2.7.5</version>
 - Java version: 11 ->	pom.xml ->	<java.version>11</java.version>
 - Lombok: responsible for generating boilerplate code for us, such as Getters and Setters.
 - Spring Web: the main dependency for developing our application. It is composed of other dependencies, including Spring MVC, REST, and Tomcat as the default embedded server. It already has all the necessary configurations for us to run and test our application locally, as well as our Controller layer.
@@ -62,7 +66,11 @@ Dependencies:
 - Spring Data JPA: simplifies the implementation of repositories based on JPA. It offers functionalities to easily interact with databases using the Java Persistence API (JPA).
 - MySQL Driver: For connecting the application to the MYSQL database.
 - SocketIO -> pom.xml:
-       <groupId>com.corundumstudio.socketio</groupId>
-       <artifactId>netty-socketio</artifactId>
-       <version>1.7.22</version>
+       //<groupId>com.corundumstudio.socketio</groupId>
+       //<artifactId>netty-socketio</artifactId>
+       //<version>1.7.22</version>
 - OAuth2 Resource Server: Enables Spring Security implementation, allowing the use of JWT Tokens for route and endpoint authentication.
+- Swagger -> pom.xml:
+         springfox-swagger2 3.0.0
+         springfox-boot-starter 3.0.0
+         springfox-swagger-ui 3.0.0
