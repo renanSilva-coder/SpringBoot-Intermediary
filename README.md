@@ -32,9 +32,9 @@ Dependências:
         	//<version>1.7.22</version>
 - OAuth2 Resource Server: Permite implementação do Spring Security, possibilita utilizar Token JWT para autenticação de rotas e endpoints.
 - Swagger -> pom.xml:
-         springfox-swagger2 3.0.0
-         springfox-boot-starter 3.0.0
-         springfox-swagger-ui 3.0.0
+         //springfox-swagger2 3.0.0
+         //springfox-boot-starter 3.0.0
+         //springfox-swagger-ui 3.0.0
 
 ==============================================================
 
@@ -71,6 +71,6 @@ Dependencies:
        //<version>1.7.22</version>
 - OAuth2 Resource Server: Enables Spring Security implementation, allowing the use of JWT Tokens for route and endpoint authentication.
 - Swagger -> pom.xml:
-         springfox-swagger2 3.0.0
-         springfox-boot-starter 3.0.0
-         springfox-swagger-ui 3.0.0
+       //springfox-swagger2 3.0.0
+       //springfox-boot-starter 3.0.0
+       //springfox-swagger-ui 3.0.0
