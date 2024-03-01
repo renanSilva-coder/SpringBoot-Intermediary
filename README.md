@@ -15,6 +15,7 @@ Desenvolvido:
 - Consultas no Banco de Dados com Native Query vs JPQL
 - Agendando uma tarefa com @Scheduled
 - Serviço de Notificação com WebSocket
+- OAuth2 Resource Server
 
 Dependências:
 - Versão Java 11 -> pom.xml ->	<java.version>11</java.version>
@@ -27,6 +28,7 @@ Dependências:
          <groupId>com.corundumstudio.socketio</groupId>
         	<artifactId>netty-socketio</artifactId>
         	<version>1.7.22</version>
+- Segurança de requisição à endpoins com Spring Security: Utilizando Token JWT para autenticação de rotas e endpoints. JWT criado no site https://auth0.com/ e adaptado para nossa utilização.
 
 ==============================================================
 
@@ -46,6 +48,7 @@ Developed:
 - Database queries with Native Query vs JPQL.
 - Scheduling a task with @Scheduled.
 - Notification service with WebSocket.
+- OAuth2 Resource Server
 
 Dependencies:
 - Java version: 11 ->	pom.xml ->	<java.version>11</java.version>
@@ -58,3 +61,4 @@ Dependencies:
        <groupId>com.corundumstudio.socketio</groupId>
        <artifactId>netty-socketio</artifactId>
        <version>1.7.22</version>
+- Securing endpoint requests with Spring Security: Utilizing JWT Token for route and endpoint authentication. JWT was created on the website https://auth0.com/ and adapted for our usage.
