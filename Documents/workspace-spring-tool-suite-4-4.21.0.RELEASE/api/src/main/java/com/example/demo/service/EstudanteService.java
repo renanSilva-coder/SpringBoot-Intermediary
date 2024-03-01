@@ -26,6 +26,11 @@ public class EstudanteService {
 	private EstudanteRepository estudanteRepository;
 	private LivroRepository livroRepository;
 	
+	public List<Estudante> buscaEstudanteNaoAvaliaram(){
+		
+		return estudanteRepository.findByAvaliacaoCursosEstudanteIsNull();
+	}
+	
 	public ResponseEntity<Estudante> buscaEstudantePorId(Long id){
 		if(estudanteRepository.existsById(id))
 			return ResponseEntity.status(HttpStatus.OK).body(estudanteRepository.findById(id).get());

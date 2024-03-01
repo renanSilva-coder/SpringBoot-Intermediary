@@ -19,6 +19,11 @@ public class EstudanteController {
 	
 	private EstudanteService estudanteService;
 	
+	@GetMapping("/naoAvaliaram")
+	public List<Estudante> buscaEstudanteNaoAvaliaram(){
+		return estudanteService.buscaEstudanteNaoAvaliaram();
+	}
+	
 	@GetMapping("/{id}")
 	public ResponseEntity<Estudante> buscaEstudantePorId(@PathVariable Long id){
 		return estudanteService.buscaEstudantePorId(id);
