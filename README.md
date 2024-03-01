@@ -26,10 +26,7 @@ Dependências:
 - Spring Boot Dev Tools: Permite fazer alterações em nossa aplicação e testar logo em seguida sem precisar parar e rodar a aplicação novamente. Ou seja, ela detecta alterações no código e reinicializa a aplicação automaticamente.
 - Spring Data JPA: Simplifica a implementação de repositórios baseados em JPA. Ele oferece funcionalidades para interagir facilmente com bancos de dados usando a API de Persistência Java (JPA)
 - MySQL Driver: Para conexão da aplicação ao banco de dados MYSQL.
-- SocketIO -> pom.xml: <
-         <groupId>com.corundumstudio.socketio</groupId>
-        	<artifactId>netty-socketio</artifactId>
-        	<version>1.7.22</version> >
+- SocketIO -> pom.xml: groupId: com.corundumstudio.socketio - artifactId: netty-socketio - version: 1.7.22
 - OAuth2 Resource Server: Permite implementação do Spring Security, possibilita utilizar Token JWT para autenticação de rotas e endpoints.
 - Swagger -> pom.xml:
          //springfox-swagger2 3.0.0
@@ -65,10 +62,7 @@ Dependencies:
 - Spring Boot Dev Tools: Allows making changes to our application and testing them immediately without needing to stop and rerun the application. In other words, it detects changes in the code and automatically restarts the application.
 - Spring Data JPA: simplifies the implementation of repositories based on JPA. It offers functionalities to easily interact with databases using the Java Persistence API (JPA).
 - MySQL Driver: For connecting the application to the MYSQL database.
-- SocketIO -> pom.xml: <
-       <groupId>com.corundumstudio.socketio</groupId>
-       <artifactId>netty-socketio</artifactId>
-       <version>1.7.22</version> >
+- SocketIO -> pom.xml: groupId: com.corundumstudio.socketio - artifactId: netty-socketio - version: 1.7.22
 - OAuth2 Resource Server: Enables Spring Security implementation, allowing the use of JWT Tokens for route and endpoint authentication.
 - Swagger -> pom.xml:
        //springfox-swagger2 3.0.0
